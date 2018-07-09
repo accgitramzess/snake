@@ -23,5 +23,7 @@
 hs_err_pid*
 
 .idea
-dll
 target
+doc
+jar
+res
