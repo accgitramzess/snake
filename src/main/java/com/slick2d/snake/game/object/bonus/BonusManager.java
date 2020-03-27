@@ -20,7 +20,6 @@ public class BonusManager {
     }
 
     public Bonus getBonus() {
-
         if(Objects.isNull(prevBonus)) {
             prevBonus = bonusFactory.createBonus();
             return prevBonus;

@@ -11,12 +11,9 @@ import org.newdawn.slick.SlickException;
 public class SnakeApplication {
 
     public static void main(String[] args) throws SlickException {
-        AppGameContainer appGameContainer = new AppGameContainer(
-                new StateBasedSnakeGame("StateBasedSnakeGame 0.1")
-        );
+        AppGameContainer appGameContainer = new AppGameContainer(new StateBasedSnakeGame("StateBasedSnakeGame 0.1"));
         appGameContainer.setDisplayMode(800, 600, false);
         appGameContainer.setAlwaysRender(true);
-
         appGameContainer.start();
     }
 }

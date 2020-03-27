@@ -8,7 +8,7 @@ import com.slick2d.snake.game.enums.TurningSliceDirection;
 public class TurningSlice {
 
     /**
-     * The idea of this game is that to store history where snake made turning slice
+     * The idea of this object is that to store history where snake made turning slice
      *
      * Example :
      *

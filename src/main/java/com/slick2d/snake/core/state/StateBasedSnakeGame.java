@@ -14,6 +14,7 @@ public class StateBasedSnakeGame extends StateBasedGame {
     }
 
     public void initStatesList(GameContainer gameContainer) throws SlickException {
-
+        addState(new MenuGameState());
+        addState(new GameState());
     }
 }
